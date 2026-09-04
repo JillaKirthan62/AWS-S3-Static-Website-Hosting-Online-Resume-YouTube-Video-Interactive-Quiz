@@ -1,4 +1,4 @@
-# ☁️ AWS S3 Static Website
+# ☁️ AWS S3 Static Website Hosting
 ### 🎓 Online Resume • 🎬 YouTube Video • 🧠 Interactive Quiz
 
 > **A hands-on cloud deployment project built with AWS + frontend technologies.**
@@ -306,4 +306,4 @@ Resume  Video  Quiz
 
 ## 📄 License
 
-This project is created for **educational, academic, and portfolio purposes**.
+This project is created for **Personal project MIT license**.
