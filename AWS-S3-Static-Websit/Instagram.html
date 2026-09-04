@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Clone</title>
+    <style>
+        /* Internal CSS styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fafafa;
+        }
+
+        /* Navigation Bar */
+        .navbar {
+            background-color: #ffffff;
+            border-bottom: 1px solid #dbdbdb;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .navbar .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #262626;
+        }
+
+        .navbar .search-bar {
+            width: 200px;
+            padding: 5px;
+            border: 1px solid #dbdbdb;
+            border-radius: 3px;
+        }
+
+        .navbar .icons {
+            display: flex;
+            gap: 15px;
+        }
+
+        .navbar .icons img {
+            width: 24px;
+            cursor: pointer;
+        }
+
+        /* Profile Section */
+        .profile {
+            display: flex;
+            align-items: center;
+            padding: 20px;
+            border-bottom: 1px solid #dbdbdb;
+            background-color: #ffffff;
+        }
+
+        .profile img {
+            border-radius: 50%;
+            width: 100px;
+            margin-right: 20px;
+        }
+
+        .profile .details {
+            flex-grow: 1;
+        }
+
+        .profile .details h2 {
+            margin: 0;
+            font-size: 24px;
+            color: #262626;
+        }
+
+        .profile .details p {
+            margin: 5px 0;
+            color: #8e8e8e;
+        }
+
+        /* Post Feed */
+        .post-feed {
+            max-width: 600px;
+            margin: 20px auto;
+        }
+
+        .post {
+            background-color: #ffffff;
+            border: 1px solid #dbdbdb;
+            border-radius: 3px;
+            margin-bottom: 20px;
+        }
+
+        .post img {
+            width: 100%;
+            border-bottom: 1px solid #dbdbdb;
+        }
+
+        .post .post-header {
+            display: flex;
+            align-items: center;
+            padding: 10px;
+        }
+
+        .post .post-header img {
+            border-radius: 50%;
+            width: 32px;
+            margin-right: 10px;
+        }
+
+        .post .post-header .username {
+            font-weight: bold;
+            color: #262626;
+        }
+
+        .post .post-content {
+            padding: 10px;
+        }
+
+        .post .post-content .actions {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 10px;
+        }
+
+        .post .post-content .actions img {
+            width: 25px;
+            cursor: pointer;
+        }
+
+        .post .post-content p {
+            margin: 0;
+            color: #262626;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <div class="logo">Instagram</div>
+        <input type="text" class="search-bar" placeholder="Search">
+        <div class="icons">
+            <img src="https://img.icons8.com/ios-filled/50/000000/home.png" alt="Home Icon">
+            <img src="https://img.icons8.com/ios-filled/50/000000/like.png" alt="Likes Icon">
+            <img src="https://img.icons8.com/?size=100&id=100004&format=png&color=000000" alt="Messages Icon">
+        </div>
+    </div>
+
+    <!-- Profile Section -->
+    <div class="profile">
+        <img src="https://img.icons8.com/?size=100&id=60362&format=png&color=000000" alt="Profile Picture">
+        <div class="details">
+            <h2>Username</h2>
+            <p>10 posts • 100 followers • 50 following</p>
+        </div>
+    </div>
+
+    <!-- Post Feed -->
+    <div class="post-feed">
+        <!-- Example Post -->
+        <div class="post">
+            <div class="post-header">
+                <img src="https://img.icons8.com/?size=100&id=60362&format=png&color=000000" alt="User Profile Picture">
+                <div class="username">Username</div>
+            </div>
+            <img src="https://placehold.co/600x400" alt="Post Image">
+            <div class="post-content">
+                <div class="actions">
+                    <img src="https://img.icons8.com/ios-filled/50/000000/like.png" alt="Like Icon">
+                    <img src="https://img.icons8.com/ios-filled/50/000000/speech-bubble--v1.png" alt="Comment Icon">
+                    <img src="https://img.icons8.com/?size=100&id=100004&format=png&color=000000" alt="Share Icon">
+                </div>
+                <p><strong>Username</strong> This is a sample caption for the post.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
